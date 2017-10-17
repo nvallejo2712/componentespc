@@ -1,0 +1,70 @@
+
+.cont-prin{
+	background:#336386;
+	height: 100%;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.cont-sec{
+	background: white;
+	height: 100%;
+	border: #d0d0d0 1px solid;
+	padding: 50px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+p{
+	font-size: 1.3rem;
+}
+h1{
+	padding-top: 50px;
+}
+hr{
+	    border: #d5f2ff 1px solid;
+}
+
+.titulo{
+	font-size: 6rem;
+	font-weight: 600;
+	padding-top: 0px;
+}
+
+.gabinete{
+	width:320px;
+}
+.microprocesador{
+	width: 250px;
+}
+
+.fuente{
+	width: 500px;
+}
+
+.discoduro{
+	width: 350px;
+}
+.ram{
+	width: 280px;
+}
+
+
+/*responsive/////////////////////////////////////////////////////*/
+	 @media screen and (min-device-width : 320px) 
+and (max-device-width : 1024px){ 
+
+
+	.container{
+			width: 90%;
+		}
+		p{
+			font-size: 3rem;
+		}
+		h1{
+			font-size: 4rem;
+		}
+	}
